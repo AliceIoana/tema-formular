@@ -10,9 +10,12 @@
     <h2>Implementare</h2>
     <form>
       <p class="titlu-formular">Model</p>
-      <input type="text" value="" class="text-name" placeholder="Cum te cheamă" required/>
-      <input type="email" value="" class="text-email" placeholder="user@domain.ext" required/>
-      <textarea class="textarea" placeholder="Scrie-ne ceva" required></textarea>
+      <label for="text">Nume</label>
+      <input id="text" type="text" value="" class="text-name" placeholder="Cum te cheamă" required/>
+      <label for="email">Email</label>
+      <input id="email" type="email" value="" class="text-email" placeholder="user@domain.ext" required/>
+      <label for="textarea">Mesaj</label>
+      <textarea id="textarea" class="textarea" placeholder="Scrie-ne ceva" required></textarea>
       <label for="checkbox" class="checkbox-group">
         <input id="checkbox" type="checkbox" value="" class="checkbox" required/>
         <p class="text-termeni">Citesc mereu termenii și condițiile</p>
